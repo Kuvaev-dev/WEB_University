@@ -1,0 +1,119 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../img/side_background.png');
+    background-position: left center;
+    background-size: 50% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    width: 30%;
+}
+
+li{
+    display: flex;
+    background-color: #ffffff;
+    padding: 0.2em;
+    border-radius: 20px;
+    margin: 8%;
+    width: 92%;
+    justify-content: left;
+    padding-left: 5%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    width: 7%;
+    height: 7%;
+    margin-right: 2%;
+    margin-left: 20%;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.signup-container{
+    width: 30%;
+    margin-left: 62%;
+    margin-top: -42%;
+}
+
+.container li{
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+h1{
+    color: black;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 20px;
+    width: 92%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    border-width: 0px;
+    background-color: #03A9F4;
+    color: #ffffff;
+    padding: 2%;
+}
+
+p{
+    font-size: 11.5px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.signup-input{
+    border-width: 0px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin-top: 0;
+    padding: 1.5%;
+}
+
+input[type="checkbox"]{
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    width: 13px;
+    height: 13px;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+h5 {
+    margin-bottom: 1%;
+}
+
+.title-container{
+    text-align: center;
+    margin-right: 6%;
+    margin-bottom: 10%;
+}
