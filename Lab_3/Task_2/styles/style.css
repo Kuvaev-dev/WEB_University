@@ -1,0 +1,156 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-container{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container, .form-container {
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.logo{
+    margin: 0;
+    position: absolute;
+    top:10%;
+    left:50%;
+}
+
+.list-sign{
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 18.5%;
+    left: 27.5%;
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.tables-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    width: 70%;
+    height: 67%;
+    top: 25%;
+    left: 20%;
+    position: absolute;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.tables-container table {
+    width: 90%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-left: 2.5%;
+    height: 10px;
+    max-height: 10px;
+}
+
+table tr {
+    text-align: left;
+}
+
+button{
+    width: 63.5%;
+    height: 10%;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: #03A9F4;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5%;
+    color: white;
+    margin-top: 5%;
+}
+
+.default-input{
+    width: 60%;
+    height: 20%;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5%;
+}
+
+form{
+    margin-top: 18.5%;
+    margin-left: 10%;
+}
+
+h5{
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 19%;
+}
+
+select{
+    width: 63%;
+    height: 20%;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding: 1.5%;
+}
+
+.input-container {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 62.5%;
+    margin-left: 19%;
+}
+
+.input-container .top-input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-image: url('visa-logo.png'), url('mastercard-logo.png'), url('maestro-logo.png'), url('paypal-logo.png');
+    background-size: 30px 15px;
+    background-repeat: no-repeat;
+    background-position: right 5px center, right 37px center, right 70px center, right 105px center;
+    padding-right: 90px;
+    box-sizing: border-box;
+}
+
+.input-container .bottom-inputs {
+    display: flex;
+    border-top: 1px solid #ccc;
+    align-items: center;
+}
+
+.input-container .bottom-inputs input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+.input-container .bottom-inputs::after {
+    content: "";
+    background-image: url('cvc-logo.png');
+    background-size: 30px 15px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 30px;
+    height: 15px;
+    margin-right: 5px;
+}
