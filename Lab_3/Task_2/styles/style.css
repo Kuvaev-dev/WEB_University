@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.info-container, .form-container {
+.form-container {
     width: 50%;
     text-align: center;
     position: relative;
@@ -19,52 +19,127 @@
     margin: 0;
     position: absolute;
     top:10%;
-    left:50%;
-}
-
-.list-sign{
-    width: 30px;
-    height: 30px;
+    left:45%;
 }
 
 h1 {
     margin: 0;
     position: absolute;
     top: 18.5%;
-    left: 27.5%;
+    left: 24%;
     font-weight: bolder;
     color: white;
     font-size: xx-large;
     text-align: center;
 }
 
-.tables-container {
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    width: 70%;
-    height: 67%;
-    top: 25%;
-    left: 20%;
-    position: absolute;
-    padding: 0;
+h2 {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+.price-list-container {
+    background-image: url('side_background2.svg');
+    width: 50%;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 900px;
+}
+
+.container-price {
+    padding: 10px;
+    background: rgba(255,255,255, 0.2);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.price {
     display: flex;
-    flex-direction: column;
+    height: 70px;
+    background: rgba(255,255,255, 0.5);
+    margin: 20px;
+    border-radius: 8px;
+    padding-left: 5%;
 }
 
-.tables-container table {
-    width: 90%;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 5px;
-    margin-left: 5%;
-    margin-top: 5%;
-    padding-left: 2.5%;
-    height: 10px;
-    max-height: 10px;
+.price p {
+    font-size: 14px;
+    margin-top: 0;
+    display: inline;
+    color: #999999;
 }
 
-table tr {
+.right-price{
+    margin-left: 18%;
+}
+
+.right-price h2 {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.right-price h3 {
+    padding-right: 10px;
+    text-align: right;
+}
+
+.left-price {
+    width: 200px;
+}
+
+.left-price h2 {
+    padding-left: 13px;
+    margin-bottom: 5px;
     text-align: left;
+}
+
+.left-price p{
+    padding-right: 5px;
+}
+
+.fish-logo{
+    width: 25px;
+    height: 25px;
+    margin-top: 2.5%;
+}
+
+.price-type2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 180px;
+    background: rgba(255,255,255, 0.5);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.price-type2 h2 {
+    font-size: 22px;
+    text-align: left;
+}
+
+.price-type2 h3 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bottom-link{
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.back-img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
 }
 
 button{
@@ -77,6 +152,7 @@ button{
     padding: 1.5%;
     color: white;
     margin-top: 5%;
+    font-weight: bolder;
 }
 
 .default-input{
@@ -90,7 +166,7 @@ button{
 
 form{
     margin-top: 18.5%;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 h5{

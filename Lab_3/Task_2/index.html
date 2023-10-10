@@ -9,81 +9,66 @@
 </head>
 <body>
     <div class="main-container">
-        <div class="info-container">
-            <img src="img/side_background2.svg"/>
-            <img class="logo" src="img/logo.svg"/>
-            <h1>Complete your purchase</h1>
-            <div class="tables-container">
-                <table style="height: 6%;">
-                    <thead>
-                        <tr>
-                            <td style="width: 10%;"><img class="list-sign" src="img/fish.png"/></td>
-                            <td><h4>Golden Penny Spread</h4></td>
-                            <td style="text-align: center;"><h4>AUG 5</h4></td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td style="display: flex;"><p>SN43500</p><p style="margin-left: 20%;">12:50 PM</p></td>
-                            <td style="text-align: center;"><h4>$14.79</h4></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table style="margin-top: 35%;">
-                    <thead>
-                        <tr>
-                            <td style="width: 10%;"><img class="list-sign" src="img/fish.png"/></td>
-                            <td><h4>Orange Blossom Honey</h4></td>
-                            <td style="text-align: center;"><h4>AUG 5</h4></td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td style="display: flex;"><p>SN76500</p><p style="margin-left: 20%;">12:50 PM</p></td>
-                            <td style="text-align: center;"><h4>$20.21</h4></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table style="margin-top: 65%;">
-                    <thead>
-                        <tr>
-                            <td style="width: 10%;"><img class="list-sign" src="img/fish.png"/></td>
-                            <td><h4>Cocopops Cereal</h4></td>
-                            <td style="text-align: center;"><h4>AUG 5</h4></td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td></td>
-                            <td style="display: flex;"><p>SN90500</p><p style="margin-left: 20%;">12:50 PM</p></td>
-                            <td style="text-align: center;"><h4>$14:79</h4></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table style="margin-top: 95%;">
-                    <tbody>
-                        <tr>
-                            <td><h4>Subtotal</h4></td>
-                            <td style="text-align: right;padding-right: 3%;"><h4>$50.00</h4></td>
-                        </tr>
-                        <tr>
-                            <td><h4>Taxes & Fees</h4></td>
-                            <td style="text-align: right;padding-right: 3%;"><h4>$10.00</h4></td>
-                        </tr>
-                        <tr>
-                            <td><h4>Promo Code - 1E5344505</h4></td>
-                            <td style="text-align: right;padding-right: 3%;"><h4>-30%</h4></td>
-                        </tr>
-                        <tr>
-                            <td><h3>Total</h3></td>
-                            <td style="text-align: right;padding-right: 3%;"><h3>qq</h3></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div> 
+        <div class="price-list-container">
+            <img src="img/logo.svg" class="logo">
+            <h1 style="color: #ffffff;">Complete your purchase</h1>
+            <div class="container-price" style="margin-top: 35%;">
+                <div class="price">
+                    <img src="img/fish.png" class="fish-logo"/>
+                    <div class="left-price">
+                        <h2>Golden Penny Spread</h2>
+                        <p style="margin-right: 50px;">SN43500</p>
+                        <p>12:50 PM</p>
+                    </div>
+                    <div class="right-price">
+                        <h2>AUG 5</h2>
+                        <h2>$14.79</h2>
+                    </div>
+                </div>
+                <div class="price">
+                    <img src="img/fish.png" class="fish-logo"/>
+                    <div class="left-price">
+                        <h2>Orange Blossom Honey</h2>
+                        <p style="margin-right: 50px;">SN76500</p>
+                        <p>12:50 PM</p>
+                    </div>
+                    <div class="right-price">
+                        <h2>AUG 5</h2>
+                        <h2>$20.21</h2>
+                    </div>
+                </div>
+                <div class="price">
+                    <img src="img/fish.png" class="fish-logo"/>
+                    <div class="left-price">
+                        <h2>Cocopops Cereal</h2>
+                        <p style="margin-right: 50px;">SN90500</p>
+                        <p>12:50 PM</p>
+                    </div>
+                    <div class="right-price">
+                        <h2>AUG 5</h2>
+                        <h2>$15.00</h2>
+                    </div>
+                </div>
+                <div class="price-type2">
+                    <div class="left-price">
+                        <h3>Subtotal</h3>
+                        <h3>Taxes &amp; Fees</h3>
+                        <h3>Promo Code - 1E5344505</h3>
+                        <h2>Total</h2>
+                    </div>
+                    <div class="right-price">
+                        <h3>$50.00</h3>                            
+                        <h3>$10.00</h3>                            
+                        <h3>-30%</h3>                            
+                        <h2>$42.00</h2>                            
+                    </div>
+                </div>
+                <div>
+                    <p class="bottom-link"><img src="img/back-row.png" class="back-img"/>&nbsp;Previous Page</p>
+                </div>
+            </div>
         </div>
+
         <div class="form-container">
             <form>
                 <button>Pay with PayPal</button>
@@ -109,7 +94,7 @@
                     <option>England</option>
                 </select>
                 <input type="text" class="default-input" placeholder="ZIP"/>
-                <button>Pay</button>
+                <button>Pay 42.00$</button>
             </form>
         </div>
     </div>
