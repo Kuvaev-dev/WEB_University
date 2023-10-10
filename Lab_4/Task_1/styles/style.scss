@@ -1,0 +1,22 @@
+.container {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: green;
+    display: flex; /* Додаємо параметри flex для батьківського контейнера */
+    flex-wrap: wrap; /* Додаємо обгортання дочірніх блоків на новому рядку при необхідності */
+    justify-content: center; /* Вирівнювання горизонтально по центру */
+    align-items: center; /* Вирівнювання вертикально по центру */
+
+    .item {
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+        background-color: chocolate;
+        margin: 5px; /* Додатковий відступ між дочірніми блоками */
+        display: flex; /* Додаємо параметри flex для дочірніх елементів */
+        justify-content: center; /* Вирівнювання горизонтально по центру */
+        align-items: center; /* Вирівнювання вертикально по центру */
+    }
+}
